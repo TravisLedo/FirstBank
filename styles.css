@@ -1,0 +1,35 @@
+* {
+  font-family: "Quicksand", sans-serif;
+}
+footer {
+  background-image: linear-gradient(
+    to right,
+    rgb(116, 116, 116) rgb(116, 116, 116) ow
+  );
+}
+.hero-jumbotron {
+  background-image: url("assets/images/hero.png");
+  background-size: cover;
+}
+
+.blue-text {
+  color: rgb(0, 0, 99);
+}
+
+.gradient-bg {
+  background-image: linear-gradient(to right, rgb(255, 115, 0), yellow);
+}
+
+.image-grid {
+  flex-wrap: nowrap;
+}
+
+.image-grid-text {
+  font-size: 30px;
+}
+
+@media (max-width: 800px) {
+  .image-grid-text {
+    font-size: 15px;
+  }
+}
