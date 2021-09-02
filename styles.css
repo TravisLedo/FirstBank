@@ -1,12 +1,7 @@
 * {
   font-family: "Quicksand", sans-serif;
 }
-footer {
-  background-image: linear-gradient(
-    to right,
-    rgb(116, 116, 116) rgb(116, 116, 116) ow
-  );
-}
+
 .hero-jumbotron {
   background-image: url("assets/images/hero.png");
   background-size: cover;
@@ -32,4 +27,9 @@ footer {
   .image-grid-text {
     font-size: 15px;
   }
+}
+
+.footer-content{
+  background-image: linear-gradient(to right, rgb(240, 240, 240), rgb(245, 245, 245));
+
 }
